@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Annan Abdelilah",
+  title: "Hi, I'm Abdelilah ",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I am an experienced software developer with expertise in Angular, NestJS, and MongoDB. I specialize in building scalable and efficient web and mobile applications that offer seamless user experiences. With a proven track record of delivering high-quality solutions, my portfolio showcases my ability to design and implement complex architectures, deliver seamless integrations, and exceed client expectations."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1VyLcn-CGEPUBVs8myYZWvNh2zW9ACSWX/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/A-Annan",
+  linkedin: "https://www.linkedin.com/in/aabdelilah",
+  gmail: "annanabdelilah@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://web.facebook.com/abdou.annan",
+  medium: "https://medium.com/@annanabdelilah",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +48,23 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Programming Expertise",
+  subTitle: "FEARLESS EXPLORER OF THE LATEST TECHNOLOGIES AND TOOLS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡  Am proficient in using NestJS, a back-end framework for building efficient and scalable server-side applications using Node.js. With NestJS, I can create modular and flexible architectures that are maintainable and easy to use."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ I specialize in developing highly interactive front-end user interfaces for web and mobile applications using Angular, a popular front-end web application framework. With Angular, I can develop dynamic and responsive user interfaces that are easy to use and manage."
+    ),
+    emoji(
+      "⚡ I have expertise in using MongoDB, a NoSQL document-oriented database that provides a flexible and scalable solution for storing and managing data. With MongoDB, I can handle unstructured data and rapidly develop applications using JSON-like documents with dynamic schemas."
+    ),
+    emoji(
+      "⚡ I am proficient in using Keycloak, an open-source identity and access management solution that provides single sign-on, authentication, and authorization services for web applications and APIs. With Keycloak, I can provide secure and fine-grained access control for your applications."
+    ),
+    emoji(
+      "⚡ I have experience working with Docker, a containerization platform that allows for packaging and deploying applications in a consistent and portable way. With Docker, I can create lightweight and isolated environments for running applications, making it easy to deploy and manage complex systems"
     )
   ],
 
@@ -73,41 +81,23 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "mongoDb",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
+
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
@@ -126,23 +116,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName:
+        "Ecole normale supérieure d'enseignement technique Mohammedia",
+      logo: require("./assets/images/enset.png"),
+      subHeader: "Engineer diploma in Big Data and Cloud Computing",
+      duration: "September 2018 - September 2021",
+      descBullets: []
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Ecole supérieure de technologie Casablanca",
+      logo: require("./assets/images/estc.png"),
+      subHeader: "Higher technician diploma in computer engineering",
+      duration: "September 2016 - June 1018",
+      descBullets: [
+        "Microsoft Windows Server 2003 network and system administration",
+        "System and network administration under LINUX",
+        "Administration of a database server"
+      ]
     }
   ]
 };
@@ -154,18 +144,22 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "40%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "DevOps",
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -175,28 +169,17 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      company: "Forase",
+      companylogo: require("./assets/images/forase.png"),
+      date: "June 2018 – Septembre 2021",
+      desc: "This project involved the development of three distinct platforms for students, teachers, and managers using Angular. Additionally, an API was built with NestJS and Keycloak for authentication and security, and mobile apps were generated using Capacitor for broader accessibility. Data was sourced from Hubspot and stored in MongoDB, and deployment was done on GCP Compute Engine to ensure reliability and scalability. Overall, this project showcases comprehensive full-stack development expertise, including proficiency in front-end and back-end technologies."
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Developer",
+      company: "FyComputing",
+      companylogo: require("./assets/images/fy.png"),
+      date: "Septembre 2021 – Present",
+      desc: "As a developer on the ISAAS project, I played a crucial role in the development of various modules using Angular, NestJS, and MongoDB. I was responsible for ensuring seamless communication between microservices using Kafka, as well as syncing projects with GitLab and retrieving GitLab secrets from Vault. My work also encompassed the infrastructure service, project service, and SCNX, allowing me to gain valuable experience in a range of key areas. Overall, my contributions to this major project showcase my expertise in full-stack development, including proficiency in a variety of front-end and back-end technologies."
     }
   ]
 };
@@ -239,7 +222,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -300,7 +283,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +307,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -337,10 +320,10 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "An immersive experience using AI",
+      subtitle:
+        "In this talk I’m going to demystify how tarteel.ai teams used machine learning to correct your quran recitation.",
+      event_url: "https://blablaconf.com/session/397965"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -356,25 +339,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+212650943933",
+  email_address: "annanabdelilah@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "AnnanAbdelilah", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
